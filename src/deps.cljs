@@ -6,5 +6,5 @@
             "react-native-tcp-socket" "^3.6.0"
             "react-navigation" "^4.3.9"
             "react-navigation-drawer" "^2.4.13"
-            "react-navigation-stack" "^1.10.3"
+            "react-navigation-stack" "^2.5.1"
             "react-navigation-tabs" "^2.8.13"}}
