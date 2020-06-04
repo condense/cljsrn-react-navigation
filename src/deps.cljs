@@ -1,0 +1,10 @@
+{:npm-deps {"@react-native-community/masked-view" "^0.1.10"
+            "react-native-gesture-handler" "^1.6.1"
+            "react-native-reanimated" "^1.9.0"
+            "react-native-safe-area-context" "^3.0.2"
+            "react-native-screens" "^2.8.0"
+            "react-native-tcp-socket" "^3.6.0"
+            "react-navigation" "^4.3.9"
+            "react-navigation-drawer" "^2.4.13"
+            "react-navigation-stack" "^1.10.3"
+            "react-navigation-tabs" "^2.8.13"}}
