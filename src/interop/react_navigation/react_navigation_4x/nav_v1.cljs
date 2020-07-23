@@ -66,6 +66,11 @@
 ; SwitchActions
 (defn jump-to [m] (module/SwitchActions.jumpTo (utils/map->js m)))
 
+; Navigation
+(defn dispatch [^js/ReactNavigation.Navigation n m] (.dispatch n (utils/map->js m)))
+(defn get-state [^js/ReactNavigation.Navigation n] (js->clj (gobject/get n "state") :keywordize-keys true))
+(defn set-state [^js/ReactNavigation.Navigation n s] (.setState n s))
+
 (comment
 
   (ns awesome-project.core
