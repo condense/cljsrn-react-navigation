@@ -5,8 +5,6 @@
             [interop.react-navigation.react-navigation-4x.utils-v1 :as utils]
             [goog.object :as gobject]))
 
-(println ::hello)
-
 (assert module)
 
 (def createAppContainer module/createAppContainer)
