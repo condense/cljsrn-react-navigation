@@ -1,4 +1,5 @@
 (ns interop.react-navigation.react-navigation-4x.nav-v1
+  (:refer-clojure :exclude [pop replace])
   (:require [react-navigation :as module]
             [reagent.core :as r]
             [interop.react-navigation.react-navigation-4x.utils-v1 :as utils]))
