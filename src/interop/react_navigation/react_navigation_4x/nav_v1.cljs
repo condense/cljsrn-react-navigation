@@ -2,7 +2,8 @@
   (:refer-clojure :exclude [pop replace])
   (:require [react-navigation :as module]
             [reagent.core :as r]
-            [interop.react-navigation.react-navigation-4x.utils-v1 :as utils]))
+            [interop.react-navigation.react-navigation-4x.utils-v1 :as utils]
+            [goog.object :as gobject]))
 
 (println ::hello)
 
