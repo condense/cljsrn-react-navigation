@@ -1,12 +1,11 @@
 (ns interop.react-navigation.react-navigation-4x.stack-v1
   (:require [react-navigation-stack :as module]
-            [goog.object :as gobject]
-            [interop.react-navigation.react-navigation-4x.utils-v1 :as utils]))
+            [goog.object :as gobject]))
 
 (assert module)
 
 ; stack
-(defn create-stack-navigator [r c] (module/createStackNavigator (utils/map->js r :keyword-fn str) (clj->js c)))
+(defn create-stack-navigator [r c] (module/createStackNavigator (clj->js r) (clj->js c)))
 
 ;(def Assets module/Assets)
 ;(def Header module/Header)
