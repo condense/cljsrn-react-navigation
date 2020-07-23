@@ -50,10 +50,10 @@
 (def Themed module/Themed)
 
 ; NavigationActions
-(defn back [m] (module/NavigationActions.navigate (utils/map->js m)))
-(defn init [m] (module/NavigationActions.navigate (utils/map->js m)))
+(defn back [m] (module/NavigationActions.back (utils/map->js m)))
+(defn init [m] (module/NavigationActions.init (utils/map->js m)))
 (defn navigate [m] (module/NavigationActions.navigate (utils/map->js m)))
-(defn set-params [m] (module/NavigationActions.navigate (utils/map->js m)))
+(defn set-params [m] (module/NavigationActions.setParams (utils/map->js m)))
 
 ; StackActions
 (defn pop [m] (module/StackActions.pop (utils/map->js m)))
